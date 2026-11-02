@@ -1,9 +1,9 @@
-# High performance computing with Python and RS-DAT
-Workshop at << - enter date and location of workshop here - >>
+# Interactive workflows on HPC: EO analysis at scale with Python/RS-DAT
+Workshop at the EO Council Autumn School 2026, 06-11-2026
 
 ## Introduction
 
-This repository hosts the material the workshop entitled "High Performance Computing With Python and RS-DAT" taught at << - enter date and location of workshop here - >> in the context of the HPC-DAT project funded by NWO through TDCC-NES. 
+This repository hosts the material the workshop entitled "Interactive workflows on HPC: EO analysis at scale with Python/RS-DAT" taught at the EO Council Autumn School 2026, 06-11-2026 in Delft in the context of the HPC-DAT project funded by NWO through TDCC-NES. 
 
 This workshop will acquaint participants with the use of the RS-DAT framework to deploy [Jupyter](https://docs.jupyter.org/en/latest/) on an HPC system, as well as with the fundamentals of the use of the [Dask](https://docs.dask.org/en/stable/index.html) and Xarray libraries in the Python ecosystem. 
 
