@@ -52,7 +52,7 @@ Once this software is installed, follow the following setup steps:
    jupyterdask --version  # check the command line tool is correctly installed
    ```
 
-3. Download the following batch job script and save it to a known path (e.g. on your Desktop): [jupyterdask-spider.slurm](https://github.com/HPC-DAT/2026_03_19_Workshop_Utrecht/blob/main/scripts/jupyterdask-spider.slurm)
+3. Download the following batch job script and save it to a known path (e.g. on your Desktop): [jupyterdask-spider.slurm](https://github.com/HPC-DAT/EOCouncil_AutumnSchool_2026/blob/main/scripts/jupyterdask-spider.slurm)
 
 4. Edit the just-downloaded job script to add the dCache access token, which you can find in the collaborative document (link will be given at the workshop):
    ```shell
