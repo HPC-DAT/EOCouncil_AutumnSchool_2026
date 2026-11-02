@@ -8,7 +8,7 @@
 #SBATCH --reservation=remotesensing 
 # Remove the line above to run without a reservation
 
-APPTAINER_IMAGE="oras://ghcr.io/hpc-dat/2026_03_19_workshop_utrecht:latest"
+APPTAINER_IMAGE="oras://ghcr.io/hpc-dat/eocouncil_autumnschool_2026:latest"
 
 # Bind all paths from host system within the container
 _DIRS=`/usr/bin/ls -1 / | /usr/bin/awk '!/dev/' | /usr/bin/sed 's/^/\//g' `
@@ -26,7 +26,7 @@ export DASK_JOBQUEUE__SLURM__PYTHON=${PYTHON}
 # run without reservation
 #export DASK_JOBQUEUE__SLURM__JOB_EXTRA_DIRECTIVES="['--output', '.jupyterdask/%x-%j.out']"
 # run with reservation (during the workshop)
-export DASK_JOBQUEUE__SLURM__JOB_EXTRA_DIRECTIVES="['--output', '.jupyterdask/%x-%j.out', '--reservation', 'remotesensing']"
+export DASK_JOBQUEUE__SLURM__JOB_EXTRA_DIRECTIVES="['--output', '.jupyterdask/%x-%j.out', '--reservation', 'hpcdat']"
 export DASK_JOBQUEUE__SLURM__PROCESSES=1
 export DASK_JOBQUEUE__SLURM__CORES=2
 export DASK_JOBQUEUE__SLURM__MEMORY="24GiB"
