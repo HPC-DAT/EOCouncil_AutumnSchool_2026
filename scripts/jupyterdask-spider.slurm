@@ -5,7 +5,7 @@
 #SBATCH --time=06:00:00
 #SBATCH --partition=normal
 #SBATCH --output=.jupyterdask/%x-%j.out
-#SBATCH --reservation=remotesensing 
+#SBATCH --reservation=hpcdat 
 # Remove the line above to run without a reservation
 
 APPTAINER_IMAGE="oras://ghcr.io/hpc-dat/eocouncil_autumnschool_2026:latest"
